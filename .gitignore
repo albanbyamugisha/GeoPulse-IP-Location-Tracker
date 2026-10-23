@@ -1,0 +1,18 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.pid
+*.tmp
+
+# Node dependencies and generated test output
+node_modules/
+tests/latest-test-summary.json
+
+# Local environment files
+.env
+.env.*
