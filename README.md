@@ -131,7 +131,13 @@ IP-Location-Tracker/
 │   └── mobile-light.png
 ├── src/
 │   ├── index.html
-│   ├── favicon.svg
+│   ├── assets/
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   ├── group8-icon.png
+│   │   └── group8-logo-192.png
 │   ├── css/
 │   │   └── style.css
 │   └── js/

@@ -101,6 +101,27 @@ The generated machine-readable summary is written to `tests/latest-test-summary.
 | 47 | No runtime exceptions | PASS | `[]` |
 | 48 | No application console errors | PASS | `[]` |
 
+## Manual real-world observation
+
+This section records a manual observation. It is separate from the automated checks above and is **not counted** in the 48 passed checks.
+
+During a manual test, the tester was physically in Mbarara, Uganda, and selected **Find My IP**. The application returned:
+
+| Field | Observed value |
+| --- | --- |
+| Public IP address | `154.72.202.37` |
+| City | Kampala |
+| Region | Central Region |
+| Country | Uganda |
+| Coordinates | `0.3163° N, 32.5822° E` |
+| Physical location during the test | Mbarara, Uganda |
+
+The returned city was Kampala, so the estimate did not match the tester's physical location. This does not mean the application malfunctioned: IP geolocation estimates the network location associated with an address, not the GPS position of the device.
+
+Possible explanations include the ISP's network gateway, traffic routed through a regional point, or the geolocation database associating the address block with Kampala. These possibilities were not confirmed with the provider, and no returned value was altered.
+
+Automated total: **48 passed, 0 failed**, unchanged.
+
 ## Evidence
 
 The test run regenerated these screenshots:

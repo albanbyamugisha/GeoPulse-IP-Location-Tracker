@@ -20,7 +20,10 @@
         }
       })();
     </script>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -36,36 +39,12 @@
       <div class="container header-inner">
         <a class="brand" href="#top" aria-label="GeoPulse home">
           <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 48 48" fill="none">
-              <defs>
-                <linearGradient
-                  id="brandGradient"
-                  x1="8"
-                  y1="4"
-                  x2="42"
-                  y2="46"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#34B7FF" />
-                  <stop offset="1" stop-color="#1683F8" />
-                </linearGradient>
-              </defs>
-              <rect width="48" height="48" rx="14" fill="url(#brandGradient)" />
-              <circle
-                cx="24"
-                cy="24"
-                r="12.5"
-                stroke="#F7FBFF"
-                stroke-width="1.8"
-              />
-              <path
-                d="M11.5 24h25M24 11.5c4.3 4.1 6.5 8.4 6.5 12.5S28.3 32.4 24 36.5c-4.3-4.1-6.5-8.4-6.5-12.5S19.7 15.6 24 11.5Z"
-                stroke="#F7FBFF"
-                stroke-width="1.8"
-                stroke-linecap="round"
-              />
-              <circle cx="24" cy="24" r="2.6" fill="#F7FBFF" />
-            </svg>
+            <img
+              src="assets/group8-logo-192.png"
+              alt=""
+              width="44"
+              height="44"
+            />
           </span>
           <span class="brand-text">
             <span class="brand-name">GeoPulse</span>
@@ -668,6 +647,12 @@
                   rather than invented.
                 </li>
               </ul>
+              <p class="notice-observation">
+                <strong>Real-world test:</strong> Find My IP returned Kampala
+                while the laptop was physically in Mbarara. This demonstrates
+                that IP-based location is an estimate and may not match the
+                device's actual location.
+              </p>
             </article>
 
             <article class="notice-card privacy">
@@ -730,20 +715,12 @@
         <div class="footer-grid">
           <div class="footer-brand">
             <span class="footer-logo" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none">
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="8.5"
-                  stroke="currentColor"
-                  stroke-width="1.8"
-                />
-                <path
-                  d="M3.8 12h16.4M12 3.5c2.9 2.8 4.3 5.6 4.3 8.5S14.9 17.7 12 20.5c-2.9-2.8-4.3-5.6-4.3-8.5S9.1 6.3 12 3.5Z"
-                  stroke="currentColor"
-                  stroke-width="1.8"
-                />
-              </svg>
+              <img
+                src="assets/group8-logo-192.png"
+                alt=""
+                width="38"
+                height="38"
+              />
             </span>
             <div class="footer-brand-copy">
               <p class="footer-title">GeoPulse</p>

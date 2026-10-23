@@ -190,9 +190,10 @@ a:focus-visible {
   filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.18));
 }
 
-.brand-mark svg {
+.brand-mark img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .brand-text {
@@ -1576,6 +1577,22 @@ a:focus-visible {
   border-color: var(--blue);
 }
 
+.notice-card > .notice-observation {
+  margin: 17px 0 0;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--blue);
+  border-radius: 10px;
+  background: var(--pale);
+  color: var(--text-soft);
+  font-size: 0.78rem;
+  line-height: 1.58;
+}
+
+.notice-observation strong {
+  color: var(--info-text);
+}
+
 .notice-link {
   margin: 18px 0 0 !important;
 }
@@ -1613,9 +1630,10 @@ a:focus-visible {
   color: #57B4FF;
 }
 
-.footer-logo svg {
+.footer-logo img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .footer-title {

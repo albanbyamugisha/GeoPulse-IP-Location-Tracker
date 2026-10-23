@@ -78,6 +78,8 @@ Explain:
 
 If the detected address is in a different city from the classroom, use it as a teaching moment: shared NAT, carrier routing, or a VPN can move the apparent location.
 
+A real-world example from this project is useful here. **Find My IP** returned Kampala at `0.3163° N, 32.5822° E` while the laptop was physically in Mbarara, Uganda. Use this to explain that the result estimates the apparent network location; it is not a measurement of the laptop's position. Possible explanations include an ISP gateway or routing point, regional traffic routing, or the provider's database records. None of these causes was confirmed.
+
 ### 5. Show the supporting interface (30–45 seconds)
 
 - Point out the **Recent searches** card. Explain that it keeps at most five unique successful lookups and only for the current browser session.

@@ -240,6 +240,22 @@ The final run passed **48 of 48 checks**:
 
 An earlier run against the initial ipwho.is implementation failed all live lookups because the `127.0.0.1` CORS origin had reached its rate limit. That evidence directly motivated the provider evaluation and the switch to ipinfo.io. The final results, including the full check list and screenshots, are in [`tests/test-results.md`](../tests/test-results.md).
 
+### 8.1 Manual real-world observation
+
+The automated checks were supplemented by a manual real-world observation. While physically located in Mbarara, Uganda, the author selected **Find My IP**. The application returned:
+
+| Field | Observed value |
+| --- | --- |
+| Public IP address | `154.72.202.37` |
+| City | Kampala |
+| Region | Central Region |
+| Country | Uganda |
+| Coordinates | `0.3163° N, 32.5822° E` |
+
+The reported city was therefore different from the laptop's physical location. This observation is separate from the 48 automated checks and is not a failed test. It does not indicate that the application malfunctioned. Instead, it illustrates the central limitation of IP geolocation: the provider returns an estimate based on network and database evidence, not a measurement of the device's position.
+
+Several explanations are possible. The public address may be associated with an ISP gateway or routing point in Kampala rather than with the subscriber's city. Traffic may be routed through a regional network location, or the provider's geolocation database may record the address block at a regional or national hub. These are possible explanations only; this project did not obtain provider confirmation of the cause. The observation is consistent with the limitations discussed in Sections 3.3 and 7.1, and the returned values are reported here without alteration.
+
 ## 9. Discussion
 
 The project demonstrates a complete, testable IP geolocation workflow: input, external API request, response normalization, map rendering, history, theme persistence, and robust failure handling. It also demonstrates why "laptop tracking" is an overstatement for IP-based systems. The application can say that a network address is associated with Mountain View, California, and with AS15169 Google LLC. It cannot say where a particular laptop is, who is using it, or where it moves next.
