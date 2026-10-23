@@ -1,8 +1,8 @@
 # GeoPulse Browser Test Results
 
-**Test date:** 23 October 2026  
-**Final run:** 23 October 2026 at 11:20:46 UTC  
-**Application URL:** `http://127.0.0.1:8765/src/index.html`  
+**Test date:** 23 October 2026<br>
+**Final run:** 23 October 2026 at 11:42:52 UTC<br>
+**Application URL:** `http://127.0.0.1:8765/src/index.html`<br>
 **Result:** **48 passed, 0 failed**
 
 ## Summary
@@ -93,7 +93,7 @@ The generated machine-readable summary is written to `tests/latest-test-summary.
 | 39 | Missing fields show Not available | PASS | Not available / Not available / United States |
 | 40 | Missing coordinates handled safely | PASS | No coordinates, markers=0 |
 | 41 | Missing coordinates still complete lookup | PASS | Success status with coordinate warning |
-| 42 | Request timeout handled | PASS | Request timed out after 12,160 ms |
+| 42 | Request timeout handled | PASS | Request timed out after 12,034 ms |
 | 43 | Lookup works after errors | PASS | 8.8.8.8, markers=1 |
 | 44 | Mobile layout has no horizontal overflow | PASS | scrollWidth=390, clientWidth=390 |
 | 45 | Tablet layout has no horizontal overflow | PASS | scrollWidth=820, clientWidth=820 |
