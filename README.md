@@ -29,23 +29,25 @@ No API key, account, backend, database, or paid map service is required.
 
 ## Run locally
 
-The page must be served over HTTP rather than opened with a `file://` URL.
+No install or build step is needed. You need Python 3 and an internet connection. Serve the project over HTTP; opening `src/index.html` directly as a `file://` URL will not work.
 
-### Option 1: Python
+### Option 1: Python (recommended)
 
-From the repository root:
+1. Open a terminal in the repository root (the folder containing `README.md`).
+2. Start the local web server:
 
 ```bash
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8765/src/` in a modern browser.
+3. Keep the terminal open and visit **http://127.0.0.1:8765/src/** in a modern browser.
+4. To stop the server, return to the terminal and press **Ctrl+C**.
 
 ### Option 2: VS Code Live Server
 
-Open the repository folder in VS Code, then use **Open with Live Server** on `src/index.html`. The page works from either `127.0.0.1` or `localhost` because the selected API is not tied to a single development origin.
+Open the repository folder in VS Code, install the **Live Server** extension if needed, then right-click `src/index.html` and select **Open with Live Server**.
 
-An internet connection is required for the geolocation request, Leaflet, and map tiles.
+An internet connection is required for the geolocation lookup, Leaflet, and map tiles.
 
 ## How to use it
 
