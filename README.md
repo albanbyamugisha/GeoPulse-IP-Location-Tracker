@@ -1,17 +1,21 @@
-# GeoPulse — IP Location Tracker
+# GROUP 8
 
+# GeoPulse — IP Location Tracker
 
 # GROUP 8 MEMBERS
 
-| No. | Name | Registration Number |
-|:---:|---|---|
-| 1 | Byamugisha Alban | 2025/BSE/062 |
-| 2 | Mayanja Chief Abusufian | 2025/BSE/237 |
-| 3 | Mukiibi Jonathan Jeremiah | 2025/BSE/215 |
-| 4 | Arusio Simon Peter | 2025/BSE/041 |
-| 5 | Taremwa Joas | 2025/BSE/171 |
-| 6 | Ssekajigo Elvis Mark | 2025/BSE/163 |
+| No. | Name                      | Registration Number |
+| :-: | ------------------------- | ------------------- |
+|  1  | Byamugisha Alban          | 2025/BSE/062        |
+|  2  | Mayanja Chief Abusufian   | 2025/BSE/237        |
+|  3  | Mukiibi Jonathan Jeremiah | 2025/BSE/215        |
+|  4  | Arusio Simon Peter        | 2025/BSE/041        |
+|  5  | Taremwa Joas              | 2025/BSE/171        |
+|  6  | Ssekajigo Elvis Mark      | 2025/BSE/163        |
 
+### Repository Link
+
+[GeoPulse IP Location Tracker](https://github.com/albanbyamugisha/GeoPulse-IP-Location-Tracker.git)
 
 **Design and Implementation of a Web-Based Laptop Location Tracking System Using IP Geolocation**
 
