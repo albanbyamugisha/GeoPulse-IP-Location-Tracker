@@ -1,5 +1,18 @@
 # GeoPulse — IP Location Tracker
 
+
+# GROUP 8 MEMBERS
+
+| No. | Name | Registration Number |
+|:---:|---|---|
+| 1 | Byamugisha Alban | 2025/BSE/062 |
+| 2 | Mayanja Chief Abusufian | 2025/BSE/237 |
+| 3 | Mukiibi Jonathan Jeremiah | 2025/BSE/215 |
+| 4 | Arusio Simon Peter | 2025/BSE/041 |
+| 5 | Taremwa Joas | 2025/BSE/171 |
+| 6 | Ssekajigo Elvis Mark | 2025/BSE/163 |
+
+
 **Design and Implementation of a Web-Based Laptop Location Tracking System Using IP Geolocation**
 
 GeoPulse is a client-side GIS dashboard that estimates the geographic location associated with a public IPv4 or IPv6 address and plots the estimate on an interactive OpenStreetMap. It is a student project about the capabilities and limits of IP geolocation, not a GPS tracker.
