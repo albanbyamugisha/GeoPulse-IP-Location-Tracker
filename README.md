@@ -44,7 +44,7 @@ GeoPulse is a client-side GIS dashboard that estimates the geographic location a
 
 No API key, account, backend, database, or paid map service is required.
 
-## Run locally
+### Run locally
 
 No install or build step is needed. You need Python 3 and an internet connection. Serve the project over HTTP; opening `src/index.html` directly as a `file://` URL will not work.
 
